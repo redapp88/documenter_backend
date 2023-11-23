@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="utf-8">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<title>Reinitialisation du mot de passe Documenter</title>
+
+<link rel="stylesheet"
+	th:href="@{webjars/bootstrap/4.2.1/css/bootstrap.min.css}" />
+<link rel="stylesheet" th:href="@{/css/main.css}" />
+<link
+	href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+	rel="stylesheet"
+	integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+	crossorigin="anonymous">
+<style>
+.titleFont {
+	font-family: "Bauhaus 93";
+	font-size: xxx-large;
+	color: #7687d0;
+}
+</style>
+</head>
+
+<body>
+
+
+
+	<main role="main" class="container">
+		<div class="starter-template" align="center">
+			<p class="titleFont">Documenter.</p>
+		</div>
+
+		<div class="starter-template" align="center">
+			<h1>
+				<span th:text="' ' + ${response}"></span>
+			</h1>
+		</div>
+
+	</main>
+	<!-- /.container -->
+
+	<script type="text/javascript"
+		th:src="@{webjars/bootstrap/4.2.1/js/bootstrap.min.js}"></script>
+</body>
+</html>
